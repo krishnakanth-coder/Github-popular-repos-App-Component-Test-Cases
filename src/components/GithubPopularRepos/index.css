@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.github-repo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.github-repo-all-cards-container {
+  padding: 10px;
+}
+.languages-list-container {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.header {
+  font-family: 'Lobster';
+}
+.repository-card-container {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.repo-failure-view {
+  width: 400px;
+  height: 400px;
+}
